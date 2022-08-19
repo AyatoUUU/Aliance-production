@@ -3934,7 +3934,25 @@ body::after {
     width: 100%;
   }
 }
+.icon-menu--ac {
 
+	span,
+	&::before,
+	&::after {
+		content: "";
+		background-color: $titleColor;
+	}
+}
+
+.menu__icon--an {
+
+	span,
+	&::before,
+	&::after {
+		content: "";
+		background-color: $titleColor;
+	}
+}
 .webp .pre-content--bg{ background-image: url(../img/blog/02.webp); }
 
 .webp .intro{ background-image: url(../img/intro/intro-bg.webp); }
